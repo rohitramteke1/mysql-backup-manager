@@ -55,14 +55,19 @@ BACKUP_DIR=backups
 ## 📂 Project Structure
 ```bash
 mysql-backup-manager/
-│── backups/              # Directory to store backup files
+│── backups/              # Directory to store backup files (can be ignored in Git)
+│── .github/              # GitHub Actions/CI pipeline configuration (already exists)
 │── venv/                 # Virtual environment (ignored in Git)
-│── .env                  # Environment variables
+│── .env                  # Environment variables (ignored in Git)
 │── .gitignore            # Ignored files (venv, backups, etc.)
-│── auto_backup.ps1       # PowerShell script for scheduled backups
-│── backup.py             # Main script to perform MySQL backup
+│── scripts/              # Folder for all script files
+│   ├── auto_backup.ps1   # PowerShell script for scheduled backups
+│   ├── backup.py         # Main script to perform MySQL backup
+│   └── restore.py        # Script to restore backups
 │── requirements.txt      # Python dependencies
 │── README.md             # Documentation
+└── LICENSE               # License file
+
 ```
 
 ---
