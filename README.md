@@ -1,5 +1,7 @@
 # MySQL Backup Manager
 
+![Used in case studies](https://img.shields.io/badge/case%20study-approved-brightgreen)
+
 MySQL Backup Manager is a simple Python-based tool that automates the backup of MySQL databases and stores them securely in an AWS S3 bucket. It allows users to schedule backups and store them in a specified directory or S3 bucket for easy access and management.
 
 ---
@@ -106,8 +108,11 @@ mysql -h localhost -u root -p yourdatabase < backups\db_backup_YYYY-MM-DD_HH-MM-
 
 ## 💡 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests to improve this project.
-
+- [Rohit Ramteke](https://github.com/rohitramteke1) – Creator & Maintainer  
+- [Syed Siddiqui](https://github.com/SadeSiddiqui) – Educational case study and feedback | AI
+  
 ---
+
 
 ## 📜 License
 
